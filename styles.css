@@ -1,0 +1,71 @@
+body{
+    color:white;
+    background:black;
+    margin: 0px;
+    font-family: "Fjalla One", sans-serif;
+    margin-bottom: 100px
+}
+
+header{
+    border-bottom:solid 1px rgb(82, 247, 82);
+    padding: 12px;
+    font-size: 22px;
+    color:rgb(170, 255, 170)
+}
+
+section {
+    background: rgb(22, 107, 59);
+    padding-bottom: 60px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+} 
+
+.chamada-texto{
+   margin-right: 7% ;
+   margin-left: 3%;
+}
+
+.video{
+    margin-right: 8%;
+}
+
+h1{
+   font-size: 43px; 
+}
+
+p{
+    font-size:19px;
+}
+
+img{
+   height: 150px
+}
+
+.videos{
+   display: flex;
+   overflow-x:auto;
+   gap: 7px;
+}
+
+.organizaçao{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.videos  img{
+  opacity: 0.5;
+}
+ .videos  img:hover{
+    opacity:1.0;
+    border: 2px solid rgb(140, 255, 140);
+ }
+
+ .organizaçao  h2{
+    color:rgb(170, 255, 170);
+    padding: 5%;
+ }
+
+ .organizaçao {
+    background: black
+ }
